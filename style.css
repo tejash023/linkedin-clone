@@ -5,3 +5,137 @@ body {
   margin: 0;
   padding: 0;
 }
+
+header {
+  background-color: rgb(32, 32, 32);
+  padding: 10px;
+}
+
+.header-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2%;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 35%;
+}
+
+.header-left a svg {
+  color: white;
+  height: 45px;
+  width: 45px;
+}
+
+.global-search {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.global-search input {
+  width: 50%;
+  position: relative;
+  padding: 12px 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #38434f;
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.global-search input:focus {
+  width: 90%;
+  transition: all 0.3s ease-in;
+}
+
+.search-icon {
+  position: absolute;
+  top: 18%;
+  color: white;
+  left: 2%;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 54%;
+}
+.primary-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  border-right: 1px solid grey;
+  padding-right: 30px;
+}
+
+.primary-nav-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 0.4rem;
+}
+
+.primary-nav-items p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.primary-nav-items span {
+  font-weight: 200;
+}
+
+.primary-nav-items span img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.secondary-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  gap: 1.5rem;
+}
+
+.secondary-nav-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  width: 50%;
+}
+
+.secondary-nav-items p,
+span {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.premium {
+  color: #e7a33e;
+  font-size: 10px;
+  font-weight: 400;
+  text-decoration: underline;
+  line-height: 1.7;
+}
