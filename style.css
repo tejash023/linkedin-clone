@@ -11,6 +11,8 @@ body {
   background: black;
 }
 
+/************************** HEADER SECTION ************************/
+
 header {
   background-color: rgb(32, 32, 32);
   padding: 4px;
@@ -167,4 +169,59 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/************************** MAIN SECTION ************************/
+
+.main {
+  display: flex;
+  margin-top: 70px;
+}
+
+.left-section,
+.middle-section,
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-section {
+  flex-grow: 1.5;
+  background-color: #f1f1f1;
+}
+
+.profile-info {
+  background: #38434f;
+  height: 300px;
+  width: 90%;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.recent-card {
+  background: #38434f;
+  height: 450px;
+  width: 90%;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.middle-section {
+  flex-grow: 4;
+  background-color: #ccc;
+}
+
+.right-section {
+  flex-grow: 2;
+  background-color: #f1f1f1;
+}
+
+.news-card,
+.add-card {
+  background: #38434f;
+  height: 250px;
+  width: 90%;
+  margin: 10px;
+  border-radius: 10px;
 }
