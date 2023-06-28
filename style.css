@@ -176,7 +176,7 @@ span {
 
 .main {
   display: flex;
-  margin-top: 70px;
+  margin: 6% 4%;
 }
 
 .left-section,
@@ -185,7 +185,7 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.6rem;
 }
 
 /********** LEFT SECTION **********/
@@ -214,13 +214,13 @@ span {
 /********** MIDDLE SECTION **********/
 
 .middle-section {
-  flex-grow: 4;
+  flex-grow: 3.5;
 }
 
 .create-post {
   background: #38434f;
   height: 100px;
-  width: 90%;
+  width: 95%;
 
   border-radius: 10px;
 }
@@ -228,7 +228,7 @@ span {
 .user-post {
   background: #38434f;
   height: 400px;
-  width: 90%;
+  width: 95%;
 
   border-radius: 10px;
 }
