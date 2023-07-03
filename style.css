@@ -201,7 +201,7 @@ span {
 }
 
 .profile-info {
-  background: #38434f;
+  background: #1d2226;
   height: 300px;
   width: 90%;
 
@@ -209,7 +209,7 @@ span {
 }
 
 .recent-card {
-  background: #38434f;
+  background: #1d2226;
   height: 450px;
   width: 90%;
 
@@ -221,11 +221,11 @@ span {
 /********** MIDDLE SECTION **********/
 
 .middle-section {
-  flex-grow: 3.5;
+  flex-grow: 2.5;
 }
 
 .create-post {
-  background: #38434f;
+  background: #1d2226;
   height: 100px;
   width: 95%;
   display: flex;
@@ -236,7 +236,7 @@ span {
 }
 
 .user-post {
-  background: #38434f;
+  background: #1d2226;
   height: 400px;
   width: 95%;
 
@@ -247,12 +247,23 @@ span {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  padding: 10px;
 }
 
 .content-area img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+}
+
+.content-area input {
+  width: 80%;
+  border: 0.15px solid white;
+  background: transparent;
+  padding: 15px;
+  border-radius: 50px;
+  color: white;
+  outline: none;
 }
 
 .content-links {
@@ -269,7 +280,7 @@ span {
 
 .news-card,
 .add-card {
-  background: #38434f;
+  background: #1d2226;
   height: 300px;
   width: 90%;
 
