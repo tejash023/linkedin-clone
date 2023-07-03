@@ -197,7 +197,7 @@ span {
 
 /********** LEFT SECTION **********/
 .left-section {
-  flex-grow: 1.5;
+  flex-grow: 1.75;
 }
 
 .profile-info {
@@ -221,12 +221,12 @@ span {
 /********** MIDDLE SECTION **********/
 
 .middle-section {
-  flex-grow: 2.5;
+  flex-grow: 1.75;
 }
 
 .create-post {
   background: #1d2226;
-  height: 100px;
+
   width: 95%;
   display: flex;
   flex-direction: column;
@@ -247,7 +247,7 @@ span {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 10px;
+  padding: 15px 15px 0 15px;
 }
 
 .content-area img {
@@ -257,7 +257,7 @@ span {
 }
 
 .content-area input {
-  width: 80%;
+  width: 90%;
   border: 0.15px solid white;
   background: transparent;
   padding: 15px;
@@ -270,7 +270,40 @@ span {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 10px 15px 15px 15px;
   gap: 1rem;
+}
+
+.content-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.content-links a svg {
+  width: 25px;
+}
+.content-links a span {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.content-photo svg {
+  color: #70b5f9;
+}
+
+.content-video svg {
+  color: #7fc15e;
+}
+
+.content-events svg {
+  color: #e7a33e;
+}
+
+.content-article svg {
+  color: #f5987e;
 }
 
 /********** RIGHT SECTION **********/
