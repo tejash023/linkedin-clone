@@ -236,7 +236,7 @@ span {
 
 .user-post {
   background: #1d2226;
-  height: 400px;
+
   width: 95%;
 
   border-radius: 10px;
@@ -355,6 +355,44 @@ span {
 .profile-header {
   font-size: 0.9rem !important;
   font-weight: 500;
+}
+
+.user-post-title {
+  padding: 10px;
+  color: white;
+  margin: 5px 0;
+}
+
+.post-image {
+}
+
+.post-image img {
+  width: 100%;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 15px;
+}
+
+.post-actions a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.post-actions a:hover {
+  background-color: #ffffff26;
+  border-radius: 5px;
+}
+.post-actions a svg {
+  width: 25px;
+  color: white;
 }
 
 /********** RIGHT SECTION **********/
