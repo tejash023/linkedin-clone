@@ -232,6 +232,7 @@ span {
 
   gap: 0.5rem;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .user-post {
@@ -337,7 +338,7 @@ span {
 
 .user-profile-img img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 .user-details p {
@@ -359,11 +360,10 @@ span {
 
 .user-post-title {
   padding: 10px;
-  color: white;
+  color: #dddada;
   margin: 5px 0;
-}
-
-.post-image {
+  font-size: 0.9rem;
+  font-weight: 400;
 }
 
 .post-image img {
@@ -395,21 +395,67 @@ span {
   color: white;
 }
 
+.hashtag {
+  color: #70b5f9;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.post-time {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 0.2rem;
+}
+
+.post-time svg {
+  width: 10px;
+}
+
 /********** RIGHT SECTION **********/
 .right-section {
   width: 28%;
 }
 
-.news-card,
-.add-card {
+.news-card {
   background: #1d2226;
   height: 300px;
   width: 90%;
-
+  padding: 10px;
   border-radius: 10px;
+}
+
+.news-card p {
+  color: white;
+  padding: 10px;
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.news-headlines {
+  padding-left: 10px;
+}
+
+.more-news {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.more-news svg {
+  width: 18px;
 }
 
 .add-card {
   position: sticky;
   top: 76px;
+}
+
+.add-card img {
+  width: 100%;
+  border-radius: 10px;
 }
