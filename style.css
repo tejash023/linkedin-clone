@@ -183,7 +183,7 @@ span {
 
 .main {
   display: flex;
-  margin: 6% 4%;
+  margin: 6% 3%;
 }
 
 .left-section,
@@ -197,7 +197,7 @@ span {
 
 /********** LEFT SECTION **********/
 .left-section {
-  flex-grow: 1.75;
+  width: 24%;
 }
 
 .profile-info {
@@ -221,9 +221,8 @@ span {
 /********** MIDDLE SECTION **********/
 
 .middle-section {
-  flex-grow: 1.75;
+  width: 50%;
 }
-
 .create-post {
   background: #1d2226;
 
@@ -270,7 +269,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 15px 15px 15px;
+  padding: 10px 10px 15px 10px;
   gap: 1rem;
 }
 
@@ -279,10 +278,16 @@ span {
   align-items: center;
   gap: 0.5rem;
   text-decoration: none;
+  padding: 10px;
+}
+
+.content-links a:hover {
+  background-color: #ffffff26;
+  border-radius: 5px;
 }
 
 .content-links a svg {
-  width: 25px;
+  width: 30px;
 }
 .content-links a span {
   color: white;
@@ -306,9 +311,55 @@ span {
   color: #f5987e;
 }
 
+.post-header {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.post-header a svg {
+  width: 30px;
+  color: white;
+}
+
+.user-profile {
+  display: flex;
+  gap: 1rem;
+}
+
+.user-profile-img {
+  display: flex;
+  gap: 1rem;
+  width: 60px;
+  height: 60px;
+}
+
+.user-profile-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.user-details p {
+  margin: 0;
+  color: white;
+  font-size: 0.7rem;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.profile-header {
+  font-size: 0.9rem !important;
+  font-weight: 500;
+}
+
 /********** RIGHT SECTION **********/
 .right-section {
-  flex-grow: 2;
+  width: 28%;
 }
 
 .news-card,
