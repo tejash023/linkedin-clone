@@ -213,7 +213,7 @@ span {
 
 .user-bg {
   height: 12vh;
-  border-radius: 10px 10px 0 0
+  border-radius: 10px 10px 0 0;
   background: black;
   width: 100%;
   border: 1px solid #1d2226;
