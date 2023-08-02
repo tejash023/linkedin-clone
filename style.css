@@ -202,10 +202,86 @@ span {
 
 .profile-info {
   background: #1d2226;
-  height: 300px;
+  /* height: 300px; */
   width: 90%;
-
   border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-bg {
+  height: 12vh;
+  border-radius: 10px 10px 0 0
+  background: black;
+  width: 100%;
+  border: 1px solid #1d2226;
+}
+
+.profile-img {
+  position: absolute;
+  top: 8%;
+  left: 33%;
+}
+
+.profile-img img {
+  width: 80px;
+  border-radius: 50px;
+}
+
+.user-name-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  color: white;
+  margin-top: 70px;
+  align-items: center;
+}
+.user-name-details h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.user-name-details p {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #918c8c;
+}
+
+.user-profile-actions {
+  width: 100%;
+  margin: 10px;
+  border-top: 0.5px solid #5a5959;
+  border-bottom: 0.5px solid #5a5959;
+}
+
+.profile-views,
+.connections {
+  display: flex;
+  /* gap: 1rem; */
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin: 15px 0;
+}
+
+.profile-views h4,
+.connections h4 {
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #918c8c;
+  margin: 0;
+}
+
+.profile-views p,
+.connections p {
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #70b5f9;
+  margin: 0%;
 }
 
 .recent-card {
@@ -216,6 +292,25 @@ span {
   border-radius: 10px;
   position: sticky;
   top: 76px;
+}
+
+.my-items {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding-left: 20px;
+  margin-bottom: 5px;
+}
+
+.my-items svg {
+  width: 18px;
+  color: white;
+}
+
+.my-items p {
+  font-size: 0.8rem;
+  color: white;
 }
 
 /********** MIDDLE SECTION **********/
@@ -421,7 +516,7 @@ span {
   background: #1d2226;
   height: 300px;
   width: 90%;
-  padding: 10px;
+  padding: 12px 5px;
   border-radius: 10px;
 }
 
