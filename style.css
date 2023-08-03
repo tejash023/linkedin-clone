@@ -286,7 +286,6 @@ span {
 
 .recent-card {
   background: #1d2226;
-  height: 450px;
   width: 90%;
 
   border-radius: 10px;
@@ -311,6 +310,58 @@ span {
 .my-items p {
   font-size: 0.8rem;
   color: white;
+}
+
+.recent-card {
+  color: white;
+
+  font-size: 0.8rem;
+}
+
+.recent-card p {
+  padding: 10px;
+}
+
+.recent-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid #5a5959;
+  color: rgb(153, 151, 151);
+}
+
+.recent-items p {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 2px;
+  padding-left: 15px;
+}
+
+.recent-items p:hover {
+  background-color: #ffffff26;
+  cursor: pointer;
+}
+
+.recent-items p svg {
+  width: 20px;
+}
+
+.discover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+}
+
+.discover:hover {
+  background-color: #ffffff26;
+  cursor: pointer;
 }
 
 /********** MIDDLE SECTION **********/
@@ -439,7 +490,7 @@ span {
 .user-details p {
   margin: 0;
   color: white;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .user-details {
